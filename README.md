@@ -1,0 +1,2 @@
+# meter_band_implementation
+Set up a mininet topology with two switches connecting three hosts each. Two switches are connected using a10mbps link. Install vlc player in one host connected in switch1 and setup a web server hosting a video file in another host connected to switch2. Other two pairs of host in both the switches communicate noisy TCP and UDP traffic at a very high rate using iperf. The video streaming also starts at the same time. Use meter band to allocate at least 5mbps for the video traffic.
